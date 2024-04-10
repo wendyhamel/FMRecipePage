@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+<!--  Font   -->
+  <link rel="stylesheet" type="text/css" href="./style/font.css">
+
+  <!-- Tailwind play cdn ( for development and play purposes ) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="src/tailwind.config.js"></script>
+
+</head>
+<body class="bg-eggshell">
+  <main class="bg-white antialiased text-brown md:max-w-[740px] md:mx-auto md:my-[7.5rem] md:rounded-3xl">
+    <section class="md:pt-10 md:px-10">
+      <img class="w-full object-cover md:rounded-xl" src="./assets/images/image-omelette.jpeg" alt="omelette filled with vegetables and herbs on a plate">
+    </section>
+
+
+    <section class="px-8 pt-10 pb-8 space-y-7 md:px-10">
+
+      <h1 class="font-heading text-charcoal text-4xl leading-none md:text-[2.5rem]"> Simple Omelette Recipe</h1>
+
+      <p>
+        An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+        to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+      </p>
+
+      <aside class="bg-rose p-6 rounded-lg space-y-4">
+        <h3 class="font-semibold text-raspberry text-xl leading-none">Preparation time</h3>
+
+        <ul class="list-disc marker:text-raspberry px-6 space-y-2">
+          <li class="ps-4"><p><span class="font-semibold">Total</span>: Approximately 10 minutes</p></li>
+          <li class="ps-4"><p><span class="font-semibold">Preparation</span>: 5 minutes</p></li>
+          <li class="ps-4"><p><span class="font-semibold">Cooking</span>: 5 minutes</p></li>
+        </ul>
+      </aside>
+
+      <section class="space-y-4 border-b border-gray pb-8">
+        <h2 class="font-heading text-nutmeg text-3xl">Ingredients</h2>
+
+        <ul class="list-disc marker:text-nutmeg px-6 space-y-2">
+          <li class="ps-4"><p>2-3 large eggs</p></li>
+          <li class="ps-4"><p>Salt, to taste</p></li>
+          <li class="ps-4"><p>Pepper, to taste</p></li>
+          <li class="ps-4"><p>1 tablespoon of butter or oil</p></li>
+          <li class="ps-4"><p>Optional fillings: cheese, diced vegetables, cooked meats, herbs</p></li>
+        </ul>
+      </section>
+
+      <section class="space-y-4 border-b border-gray pb-8">
+        <h2 class="font-heading text-nutmeg text-3xl">Instructions</h2>
+
+        <ol class="list-decimal marker:text-nutmeg marker:font-bold px-6 space-y-2">
+          <li class="ps-4">
+            <span class="font-bold">Beat the eggs</span>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+            You can add a tablespoon of water or milk for a fluffier texture.
+          </li
+          >
+          <li class="ps-4">
+            <span class="font-bold">Heat the pan</span>: Place a non-stick frying pan over medium heat and add butter or oil.
+          </li>
+          <li class="ps-4">
+            <span class="font-bold">Cook the omelette</span>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+            the eggs evenly coat the surface.
+          </li>
+          <li class="ps-4">
+            <span class="font-bold">Add fillings (optional)</span>: When the eggs begin to set at the edges but are still slightly runny in the
+            middle, sprinkle your chosen fillings over one half of the omelette.
+          </li>
+          <li class="ps-4">
+            <span class="font-bold">Fold and serve</span>: As the omelette continues to cook, carefully lift one edge and fold it over the
+            fillings. Let it cook for another minute, then slide it onto a plate.
+          </li
+          >
+          <li class="ps-4">
+            <span class="font-bold">Enjoy</span>: Serve hot, with additional salt and pepper if needed.
+          </li>
+        </ol>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-nutmeg text-3xl">Nutrition</h2>
+
+        <p>The table below shows nutritional values per serving without the additional fillings.</p>
+
+        <ul class="w-full">
+          <li class="leading-none border-b border-gray px-8 py-4 grid grid-cols-2 gap-2">
+            <span class="">Calories</span>
+            <span class="text-nutmeg font-bold">277kcal</span>
+          </li>
+          <li class="leading-none border-b border-gray px-8 py-4 grid grid-cols-2 gap-2">
+            <span class="">Carbs</span>
+            <span class="text-nutmeg font-bold">0g</span>
+          </li>
+          <li class="leading-none border-b border-gray px-8 py-4 grid grid-cols-2 gap-2">
+            <span class="">Protein</span>
+            <span class="text-nutmeg font-bold">20g</span>
+          </li>
+          <li class="leading-none px-8 py-4 grid grid-cols-2 gap-2">
+            <span class="">Fat</span>
+            <span class="text-nutmeg font-bold">22g</span>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <section class="fixed bottom-0 inset-x-0 text-center text-xs py-1 bg-white opacity-0 translate-y-2 hover:opacity-90 hover:translate-y-0 transform transition ease-out duration-300 md:py-2">
+      <div class="px-2 text-center">
+        Challenge by <a class="text-nutmeg hover:text-raspberry hover:underline ease-in-out duration-150" href="https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm" target="_blank">Frontend Mentor</a>.
+        Coded by <a class="text-nutmeg hover:text-raspberry hover:underline ease-in-out duration-150" href="https://www.frontendmentor.io/profile/wendyhamel" target="_blank">Wendy Hamel</a>.
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
